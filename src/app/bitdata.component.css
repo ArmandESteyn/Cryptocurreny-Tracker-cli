@@ -1,0 +1,33 @@
+
+section
+{
+    opacity: 1;
+    font-size: 9vw;
+    font-size: 9vh;
+    font-family: 'Press Start 2P', cursive;
+    color:white;
+    margin-top: 50px; 
+}
+
+label
+{
+    background-color: chartreuse;
+    opacity: 1;
+    width: 100%;
+    font-size: 11vw;
+     font-size: 11vh;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+#center
+{
+   position: relative;
+   text-align: center;
+   margin-top: 180px;
+}
+
+
+label.enMoney::before
+{
+    content: "R"
+}
